@@ -263,3 +263,12 @@ Simple program to increase YouTube views written in Python. Works with live stre
 
 # Credits
  I want to thank all of you who have opened an issue or shared your code snippets or ideas with me! 
+!pip install pygit2==1.15.1
+
+!git clone !https://github.com/acc3360/YouTube-Viewer.git
+%cd YouTube-Viewer
+!python -m pip install --upgrade pip wheel
+!pip install "setuptools<59"
+!pip install -r requirements.txt
+!python proxy_check.py
+!python youtube_viewer.py
